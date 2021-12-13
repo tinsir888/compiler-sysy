@@ -1,0 +1,8 @@
+语法树构建完成 
+语法树输出完成 
+类型检查完成 
+中间代码生成完成 
+中间代码输出完成 
+warning: overriding the module target triple with x86_64-pc-linux-gnu [-Woverride-module]
+1 warning generated.
+TOTAL: 0H-0M-0S-0us
