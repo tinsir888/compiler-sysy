@@ -1,0 +1,5 @@
+int defn(){
+    return 4;
+}
+
+int a=defn();

@@ -1,0 +1,36 @@
+   	    	  	 	  	  	 program
+    Sequence
+        Sequence
+            varDecl_stmt
+                Decl_id
+                Id	name: a	scope: 0	type: int
+            FunctionDefine function name: func, type: int()
+                funcParam
+                    Id	name: p	scope: 1	type: int
+                CompoundStmt
+                    Sequence
+                        AssignStmt
+                            Id	name: p	scope: 1	type: int
+                            BinaryExpr	op: sub
+                                Id	name: p	scope: 1	type: int
+                                IntegerLiteral	value: 1	type: int
+                        ReturnStmt
+                            Id	name: p	scope: 1	type: int
+        FunctionDefine function name: main, type: int()
+            CompoundStmt
+                Sequence
+                    Sequence
+                        Sequence
+                            varDecl_stmt
+                                Decl_id
+                                Id	name: b	scope: 1	type: int
+                            AssignStmt
+                                Id	name: a	scope: 0	type: int
+                                IntegerLiteral	value: 10	type: int
+                        AssignStmt
+                            Id	name: b	scope: 1	type: int
+                            FunctionUtil function name: func, type: int()
+                                Real_funcParam
+                                    Id	name: a	scope: 0	type: int
+                    ReturnStmt
+                        Id	name: b	scope: 1	type: int

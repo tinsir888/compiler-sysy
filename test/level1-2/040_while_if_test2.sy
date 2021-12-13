@@ -1,0 +1,11 @@
+int ifWhile() {
+  int a;
+  a = 0;
+  int b;
+  b = 3;
+    while(b == 2){
+      b = b + 2;
+    }
+  
+  return (b);
+}
