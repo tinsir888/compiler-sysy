@@ -1,9 +1,7 @@
-# 2021Fall NKUCS Course - Principle of Compilers
+# Machine Code Generation
 
-> Lab7: Machine Code Generation
->
-> Author: Emanual20 YoungCoder feilll
-> 
+## 2021Fall NKUCS Course - Principle of Compilers
+
 > Date: 2021/11/28
 
 ## 编译器命令
