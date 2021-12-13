@@ -1,0 +1,7 @@
+
+int model(int a)
+{
+        return 1;
+    return 0;
+}
+

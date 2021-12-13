@@ -1,0 +1,10 @@
+                program
+    FunctionDefine function name: model, type: int()
+        funcParam
+            Id	name: a	scope: 1	type: int
+        CompoundStmt
+            Sequence
+                ReturnStmt
+                    IntegerLiteral	value: 1	type: int
+                ReturnStmt
+                    IntegerLiteral	value: 0	type: int
