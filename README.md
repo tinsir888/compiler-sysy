@@ -1,9 +1,12 @@
-# 2021Fall NKUCS Course - Principle of Compilers
+# Type Check and IR Code Generate
 
-> Lab6: Type Check & Intermediate Code Generation
->
-> Author: Emanual20 YoungCoder
-> 
+## Requirements
+
+- Based on the grammatical analysis, traverse the grammar tree, perform simple type checking, and simply print out prompt information for grammatical errors.
+- Complete the intermediate code generation work and output the intermediate code.
+
+## 2021Fall NKUCS Course - Principle of Compilers
+
 > Date: 2021/11/14
 
 ## 编译器命令
