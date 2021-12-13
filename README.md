@@ -1,8 +1,12 @@
-# 2021lab5-Skeleton
-For 2021Fall NKUCS Course - Principle of Compilers Lab5
+# Parser
+## Requirements
+- The design of the grammar tree data structure: the design of node types, the information that different types of nodes should save.
+- Extend context-free grammar and design translation mode.
+- Design the Yacc program to realize the parser that can construct the syntax tree.
+- Output the syntax tree structure in text mode to verify the correctness of the syntax analyzer.
 
-> Author: Emanual20 YoungCoder
-> 
+## For 2021Fall NKUCS Course - Principle of Compilers Lab5
+
 > Date: 2021/10/27
 
 ## 编译器命令
