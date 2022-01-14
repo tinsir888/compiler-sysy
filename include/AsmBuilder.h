@@ -6,12 +6,11 @@
 
 class AsmBuilder
 {
-private:
+public:
     MachineUnit* mUnit;  // mahicne unit
     MachineFunction* mFunction; // current machine code function;
     MachineBlock* mBlock; // current machine code block;
     int cmpOpcode; // CmpInstruction opcode, for CondInstruction;
-public:
     void setUnit(MachineUnit* unit) { this->mUnit = unit; };
     void setFunction(MachineFunction* func) { this->mFunction = func; };
     void setBlock(MachineBlock* block) { this->mBlock = block; };
